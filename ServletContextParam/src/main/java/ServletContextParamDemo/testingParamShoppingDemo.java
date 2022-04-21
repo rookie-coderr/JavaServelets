@@ -43,7 +43,8 @@ public class testingParamShoppingDemo extends HttpServlet {
 		out.println("Project name " + projectName);
 		out.println("Expiration Seconds" + expirationSeconds);
 		out.println("---------init param--------");
-		out.println("License"+ license);
+		out.println("Greetings : "+ greeting);
+		out.println("License : "+ license);
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

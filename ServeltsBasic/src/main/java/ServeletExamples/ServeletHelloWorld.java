@@ -14,7 +14,9 @@ public class ServeletHelloWorld extends GenericServlet {
 	@Override
 	public void service(ServletRequest request, ServletResponse response) throws ServletException, IOException {
 		
-		response.setContentType("text/html");
+		System.out.println("Inside Service Method of ServeletHelloWorld");
+		
+//		response.setContentType("text/html");
 		PrintWriter out = response.getWriter();
 		out.print("<html>");
 		out.print("<body>");

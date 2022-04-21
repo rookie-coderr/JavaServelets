@@ -17,4 +17,15 @@
   	<servlet-name>FirstServlet</servlet-name>
   	<url-pattern>/firstServlet</url-pattern>
   </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>AdditionServlet</servlet-name>
+  	<servlet-class>ServeletExamples.ServletExAddition</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>AdditionServlet</servlet-name>
+  	<url-pattern>/additionServlet</url-pattern>
+  </servlet-mapping>
+  
+  
 </web-app>
